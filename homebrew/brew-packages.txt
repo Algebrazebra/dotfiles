@@ -1,0 +1,7 @@
+coursier/formulas/coursier
+curl
+neovim
+pipx
+pyenv
+tree
+wget

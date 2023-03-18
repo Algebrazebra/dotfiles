@@ -16,3 +16,22 @@ If `~/<dotfile>` already exists, *it might be necessary to delete it before crea
 **Repeat the command for every dotfile.**
 Once you are done, you can check the result with `ls -la`.
 
+## Homebrew
+
+The `homebrew` directory contains a list of software packages and applications managed by the MacOS package manager of the same name. 
+Homebrew makes a distinction between packages and "casks" (i.e. applications).
+
+To install all packages:
+```zsh
+xargs brew install < homebrew/brew-packages.txt
+```
+
+To install all casks:
+```zsh
+xargs brew install --cask < homebrew/brew-casks.txt
+```
+
+The text files of these two commands were created by:
+- `brew leaves --installed-on-request > brew-packages.text`
+- `brew list --cask > brew-casks.txt`
+
