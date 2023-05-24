@@ -113,3 +113,6 @@ eval "$(register-python-argcomplete pipx)"
 
 # Poetry tab completions
 fpath+=~/.zfunc
+
+# Direnv config
+eval "$(direnv hook zsh)"
