@@ -2,3 +2,4 @@ font-fira-code
 iterm2
 lulu
 intellij-idea
+visual-studio-code
